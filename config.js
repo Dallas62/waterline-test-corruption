@@ -25,7 +25,7 @@ module.exports = {
         }
     },
 
-    // Drop all data after tests
+    // Drop all data before the test
     defaults: {
         
         migrate: 'drop'
