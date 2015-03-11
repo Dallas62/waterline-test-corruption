@@ -41,6 +41,7 @@ Pets are associate to Owners with the following rules:
  - Owner with id 1 associate to the pet with id 1, owner 2 with pet 2, 3 with 3, etc.
 
 When all are updated, the join table looks like (it's not constant):
+
 | id | owner | pet |
 |----|-------|-----|
 |  1 |    10 |  10 |
