@@ -1,0 +1,16 @@
+{
+  "name": "waterline-associations-corruption",
+  "version": "1.0.0",
+  "description": "An example of waterline data corruption",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tacyniak Boris",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "sails-mysql": "^0.10.11",
+    "waterline": "^0.10.18"
+  }
+}
