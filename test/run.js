@@ -47,6 +47,9 @@ module.exports = function run( Owner, Pet, cb ) {
 
         // Generate the task for owner
         tasks.push( update( Owner, i, 'pets', i ) );
+
+        // To test with pet:
+        //tasks.push( update( Pet, i, 'owners', i ) );
     }
     
     // Run all tasks
