@@ -42,13 +42,13 @@ Pets are associate to Owners with the following rules:
 
 When all are updated, the join table looks like (it's not constant):
 
-| id | owner | pet |
-|----|-------|-----|
-|  1 |    10 |  10 |
-|  2 |    10 |  10 |
-|  3 |    10 |  10 |
-|  4 |    10 |  10 |
-|  5 |    10 |  10 |
+| id | owner_pets | pet_owners |
+|----|------------|------------|
+|  1 |         10 |         10 |
+|  2 |         10 |         10 |
+|  3 |         10 |         10 |
+|  4 |         10 |         10 |
+|  5 |         10 |         10 |
 
 ## Run
 
