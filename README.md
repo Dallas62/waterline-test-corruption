@@ -31,6 +31,24 @@ Owner.findOne(1).exec(function(err, owner){
 });
 ```
 
+## What I do
+
+I create a Many-to-Many association with Owner-Pet.
+
+Then create 10 owners and 10 pets.
+
+Pets are associate to Owners with the following rules:
+ - Owner with id 1 associate to the pet with id 1, owner 2 with pet 2, 3 with 3, etc.
+
+When all are updated, the join table looks like (it's not constant):
+| id | owner | pet |
+|----|-------|-----|
+|  1 |    10 |  10 |
+|  2 |    10 |  10 |
+|  3 |    10 |  10 |
+|  4 |    10 |  10 |
+|  5 |    10 |  10 |
+
 ## Run
 
 Change the config of your MySQL server in `config.js`
